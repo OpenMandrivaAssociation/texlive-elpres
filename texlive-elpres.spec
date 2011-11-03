@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/elpres
+# catalog-date 2007-05-25 16:15:27 +0200
+# catalog-license lppl
+# catalog-version v0.3
 Name:		texlive-elpres
 Version:	v0.3
 Release:	1
@@ -42,6 +48,7 @@ and may be used with LaTeX or pdfLaTeX.
 %doc %{_texmfdistdir}/doc/latex/elpres/elpres-manual.tex
 %doc %{_texmfdistdir}/doc/latex/elpres/gradient1.png
 %doc %{_texmfdistdir}/doc/latex/elpres/gradient2.png
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -52,3 +59,5 @@ and may be used with LaTeX or pdfLaTeX.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
