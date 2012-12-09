@@ -49,3 +49,17 @@ and may be used with LaTeX or pdfLaTeX.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> v0.3-2
++ Revision: 751406
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> v0.3-1
++ Revision: 718321
+- texlive-elpres
+- texlive-elpres
+- texlive-elpres
+- texlive-elpres
+
