@@ -6,7 +6,7 @@
 # catalog-version v0.3
 Name:		texlive-elpres
 Version:	v0.3
-Release:	4
+Release:	5
 Summary:	A simple class for electronic presentations
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/elpres
