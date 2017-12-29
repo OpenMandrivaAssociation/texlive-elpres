@@ -1,12 +1,6 @@
-# revision 15878
-# category Package
-# catalog-ctan /macros/latex/contrib/elpres
-# catalog-date 2007-05-25 16:15:27 +0200
-# catalog-license lppl
-# catalog-version v0.3
 Name:		texlive-elpres
-Version:	v0.3
-Release:	10
+Version:	0.3
+Release:	1
 Summary:	A simple class for electronic presentations
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/elpres
@@ -49,17 +43,3 @@ and may be used with LaTeX or pdfLaTeX.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> v0.3-2
-+ Revision: 751406
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> v0.3-1
-+ Revision: 718321
-- texlive-elpres
-- texlive-elpres
-- texlive-elpres
-- texlive-elpres
-
