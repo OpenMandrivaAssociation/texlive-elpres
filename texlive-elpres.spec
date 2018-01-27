@@ -1,5 +1,5 @@
 Name:		texlive-elpres
-Version:	0.3
+Version:	0.4a
 Release:	1
 Summary:	A simple class for electronic presentations
 Group:		Publishing
@@ -27,12 +27,8 @@ and may be used with LaTeX or pdfLaTeX.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/elpres/elpres.cls
-%doc %{_texmfdistdir}/doc/latex/elpres/elpres-example.tex
-%doc %{_texmfdistdir}/doc/latex/elpres/elpres-manual.pdf
-%doc %{_texmfdistdir}/doc/latex/elpres/elpres-manual.tex
-%doc %{_texmfdistdir}/doc/latex/elpres/gradient1.png
-%doc %{_texmfdistdir}/doc/latex/elpres/gradient2.png
+%{_texmfdistdir}/tex/latex/elpres
+%doc %{_texmfdistdir}/doc/latex/elpres
 
 #-----------------------------------------------------------------------
 %prep
