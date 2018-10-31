@@ -1,6 +1,6 @@
 Name:		texlive-elpres
 Version:	0.4a
-Release:	1
+Release:	2
 Summary:	A simple class for electronic presentations
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/elpres
