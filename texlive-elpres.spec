@@ -3,7 +3,7 @@ Version:	71385
 Release:	1
 Summary:	A simple class for electronic presentations
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/elpres
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/elpres
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/elpres.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/elpres.doc.r%{version}.tar.xz
